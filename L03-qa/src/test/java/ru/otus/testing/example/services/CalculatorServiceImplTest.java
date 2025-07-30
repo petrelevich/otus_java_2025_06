@@ -37,7 +37,7 @@ class CalculatorServiceImplTest {
     }
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         ioService = mock(IOService.class);
         calculatorService = new CalculatorServiceImpl(ioService);
         inOrder = inOrder(ioService);
