@@ -7,7 +7,6 @@ include("L02-gradle2-libApiUse")
 include("L02-logging")
 
 include("L03-qa")
-
 include("L04-generics")
 include("L05-collections")
 include("L06-annotations")
@@ -23,6 +22,9 @@ include("L13-creationalPatterns")
 include("L14-behavioralPatterns")
 include("L15-structuralPatterns:demo")
 include("L15-structuralPatterns:homework")
+
+include("L16-io:demo")
+include("L16-io:homework")
 
 pluginManagement {
     val jgitver: String by settings
