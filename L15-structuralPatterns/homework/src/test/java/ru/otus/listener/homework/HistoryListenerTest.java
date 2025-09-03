@@ -12,6 +12,7 @@ class HistoryListenerTest {
 
     @Test
     @Disabled("удалить для запуска тест")
+    @SuppressWarnings({"java:S125", "java:S1135"})
     void listenerTest() {
         // given
         var historyListener = new HistoryListener();

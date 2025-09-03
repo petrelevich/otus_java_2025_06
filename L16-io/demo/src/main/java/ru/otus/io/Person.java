@@ -14,7 +14,7 @@ public class Person implements Serializable {
 
     //  public String newField ="ddd";  //опыт с полем
 
-    // Обратите внимание на то, сколько раз вызывается конструктор и сколько объектов создается
+    // Обратите внимание на то, сколько раз вызывается констурктор и сколько объектов создается
     Person(int age, String name, String hidden) {
         logger.info("new Person");
         this.age = age;
